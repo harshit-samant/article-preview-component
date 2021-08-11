@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <section class="main d-flex justify-content-center align-items-center">
+    <div class="row main-box">
+      <div class="col-md-5 img-container d-flex justify-content-md-start justify-content-sm-center">
+        <img class="drawer-img" src="./images/drawers-img.png" alt="drawer-img">
+      </div>
+      <div class="col-md-7 colm--2">
+        <h3 class="mb-2">Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home</h3>
+        <p class="main-para mb-md-4">Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete</p>
+        <div class="row mx-0 footer">
+          <div class="col-1 px-0 my-auto">
+            <img class="profile-img" src="./images/avatar-michelle.jpg" alt="profile-img">
+          </div>
+          <div class="col-8 ">
+            <div class="details">
+              <p class="profile-name my-0">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end align-items-center">
+            <div class="">
+              <button class="button-share toooltip " type="button" name="button" onclick="hide()">
+                <div id="menu" class="tooltip-content row hide">
+                  <p class="col share my-auto ms-2">SHARE</p>
+                  <a href="#" class="col-md-2 col p-0 my-auto " ><img class="social" src="./images/icon-facebook.svg" alt="icon-fb"></a>
+                  <a href="#" class="col-md-2 col p-0 my-auto"><img class="social" src="./images/icon-twitter.svg" alt="icon-twitter"></a>
+                  <a href="google" class="col-md-2 col p-0 my-auto"><img class="social" src="./images/icon-pinterest.svg" alt="icon-pinterest"></a>
+                  <a href="#" class="col-md-2 col p-0 my-auto me-3 button-share-dark"></a>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/harshit-samant">harshit-samant</a>.
+  </div>
+  <!--Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <script src="./javascript/index.js"></script>
+</body>
+
+</html>
