@@ -154,7 +154,7 @@ h3 {
   .toooltip .tooltip-content {
     height: 60px;
     bottom: 0;
-    top: -9px;
+    top: -3px;
     left: auto;
     right: -100%;
     width: 64.5vw;
@@ -183,6 +183,6 @@ h3 {
 
   .toooltip .tooltip-content {
     width: 66vw;
-    top: -7px;
+    top: -2px;
   }
 }
